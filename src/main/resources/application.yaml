@@ -1,0 +1,15 @@
+server:
+  port: 8080
+logging:
+  level:
+    - root: debug
+#    - web: debug
+#    - in.hocg: debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    initialization-mode: always
+    schema:
+      - classpath:db/schema-maria.sql
+    data:
+      - classpath:db/data-maria.sql

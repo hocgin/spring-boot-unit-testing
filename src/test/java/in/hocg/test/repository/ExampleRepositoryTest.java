@@ -38,7 +38,7 @@ public class ExampleRepositoryTest extends AbstractSpringBootTest {
     }
     
     /**
-     * 该单元测试会在测试结束对测试数据进行回滚
+     * [推荐] 该单元测试会在测试结束对测试数据进行回滚
      */
     @Test
     @Transactional

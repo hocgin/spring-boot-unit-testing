@@ -30,7 +30,7 @@ public class ExampleControllerTest extends AbstractSpringBootTest {
     }
     
     /**
-     * 直接进行 Controller 的单元测试(2)
+     * [推荐] 直接进行 Controller 的单元测试(2)
      */
     @Test
     public void worked2() throws Exception {
